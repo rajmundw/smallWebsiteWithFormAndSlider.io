@@ -43,13 +43,9 @@ class MainSlider extends Component {
 
 
     shouldComponentUpdate(nextProps,nextState){
-        console.log(nextState.currentMainWidth,'nextprops')
-        console.log(this.state.currentMainWidth,'state')
         if((nextState.currentMainWidth>=768&&this.state.currentMainWidth<768)||(nextState.currentMainWidth<768&&this.state.currentMainWidth>=768)){
-            console.log('true')
             return true
         }else{
-            console.log('false')
             return false;
         }
 
