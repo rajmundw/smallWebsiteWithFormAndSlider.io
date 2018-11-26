@@ -16,16 +16,10 @@ p{
 
   padding-top: 0px;
 }
-ul{
-  img{
-    width: 100%;
-  }
-}
 
-div[class*="col-"]{
-  img{
-    width: 100%;
-  }
+
+.slick-slide img{
+  width: 100%;
 }
 .form-control-lg{
   position: relative;
@@ -203,12 +197,26 @@ ul{
     .row:first-of-type{
       div[class*="col-"]:first-of-type{
         padding-top: 0px;
+
+      }
+      div[class*="col-"]:nth-of-type(2){
+        img{
+          margin-top: 7px;
+        }
+
       }
 
     }
     .row:nth-of-type(2){
       div[class*="col-"]:first-of-type{
+        margin-top: -10px;
         padding-top: 0px;
+      }
+      div[class*="col-"]:nth-of-type(2){
+        img{
+          margin-top: 7px;
+        }
+
       }
 
     }

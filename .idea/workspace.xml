@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e79a7dd-1016-4c0b-b2de-d73d8608b78a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.01d3a23d994ee0458e4c8c243c7fa6ea.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/1.f0287325.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/1.f0287325.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.0b95465e.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.0b95465e.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.f7a90a89.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/1.f7a90a89.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.0d62a829.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.0d62a829.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.38ddf559.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime~main.38ddf559.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/slick.b7c9e1e4.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/slick.ced611da.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/slick.d41f55a7.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/slick.f97e3bbf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/slide1.fd5743ef.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/slide2.2baff700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/slide3.af509c83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,62 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="index.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="42" selection-start-line="9" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createSliderElement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/createSliderElement.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createSliderElementLowWidth.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Functions/createSliderElementLowWidth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sliderBody.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/sliderBody.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sliderBodyLowWidth.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Functions/sliderBodyLowWidth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-270">
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            <state relative-caret-position="195">
+              <caret line="202" column="12" lean-forward="true" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -134,9 +65,9 @@
       <find>inp</find>
       <find>px</find>
       <find>optio</find>
-      <find>img</find>
       <find>dot</find>
       <find>do</find>
+      <find>img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -162,8 +93,8 @@
         <option value="$PROJECT_DIR$/src/Functions/createSliderElementLowWidth.js" />
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/scss/index.scss" />
         <option value="$PROJECT_DIR$/src/Containers/Slider.js" />
+        <option value="$PROJECT_DIR$/src/scss/index.scss" />
       </list>
     </option>
   </component>
@@ -189,8 +120,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
-    <option name="y" value="27" />
+    <option name="x" value="510" />
+    <option name="y" value="52" />
     <option name="width" value="1141" />
     <option name="height" value="660" />
   </component>
@@ -290,22 +221,22 @@
       <updated>1543195828741</updated>
       <workItem from="1543195831978" duration="12018000" />
       <workItem from="1543210603006" duration="125000" />
-      <workItem from="1543211033504" duration="33633000" />
+      <workItem from="1543211033504" duration="34917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45776000" />
+    <option name="totallyTimeSpent" value="47060000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="27" width="1141" height="660" extended-state="0" />
+    <frame x="510" y="52" width="1141" height="660" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24955277" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
@@ -336,7 +267,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -620,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="42" selection-start-line="9" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/FormHeader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -657,48 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/sliderBody.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/createSliderElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Functions/sliderBodyLowWidth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="13">
           <caret line="184" column="10" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="275" column="25" lean-forward="true" selection-start-line="275" selection-start-column="25" selection-end-line="275" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -723,6 +606,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/createSliderElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Containers/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="42" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/sliderBody.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Functions/sliderBodyLowWidth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scss/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="202" column="12" lean-forward="true" selection-start-line="202" selection-start-column="12" selection-end-line="202" selection-end-column="12" />
         </state>
       </provider>
     </entry>
