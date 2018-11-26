@@ -58,7 +58,7 @@ class App extends Component {
             })
 
         return(
-            <div className="App">
+            <div className="App container">
                 <FormHeader/>
                 <Form/>
                 <Slider/>

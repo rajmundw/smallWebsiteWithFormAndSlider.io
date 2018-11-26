@@ -2,16 +2,17 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 0px;
+  margin: 0;
   padding: 0px;
   box-sizing: border-box;
+}
+.container-fluid{
+  max-width: 1140px !important;
 }
 .container {
   width: 100%;
 }
 form {
-  margin-right: 18%;
-  margin-left: 18%;
   img{
     position: absolute;
     top: calc(50% - 7.5px);
@@ -61,17 +62,14 @@ input{
 .form-header{
   font-size: 22px;
   font-weight: bold;
-  margin-right: 18%;
-  margin-left: 18%;
   letter-spacing: -0.7px;
   padding-bottom: 5px;
+  position: relative
 }
 
 .main-header{
   font-size: 33px;
   font-weight: bold;
-  margin-right: 18%;
-  margin-left: 18%;
   padding-bottom: 25px;
   padding-top: 33px;
   letter-spacing: -0.7px;
@@ -119,36 +117,30 @@ input{
   }
 }
 .main-slider-container{
-  margin-right: 18%;
-  margin-left: 18%;
-
+  position: relative;
   margin-top: 0px !important;
   .slider img{
     width: 100%;
   }
-  .container-fluid:last-of-type{
+  .container:last-of-type{
     .row:first-of-type{
       padding-top: 0px !important;
     }
   }
 }
-.slider .col-md-4{
-  padding-right: 0px !important;
-  padding-left: 0px !important;
-}
 h1{
   font-size: 12px;
   font-weight: bold;
-  padding-left:15px ;
   padding-top: 5px;
 }
 p{
   font-size: 12px;
-  padding-left:15px ;
+
   padding-top: 0px;
 }
 
 @media (max-width: 767px) {
+
   form {
     div[class*="col-"]{
       padding-top: 15px;
@@ -178,10 +170,43 @@ p{
     font-weight: lighter;
     color: #717171
   }
+  .btn-success{
+    height: 36px;
+    font-weight: 700;
+    margin-top: -8px;
+  }
 }
 
 .button-small{
   height: 36px;
   font-weight: 700;
   margin-top: -8px;
+}
+.slick-dots{
+  position: absolute !important;
+  top: -16%;
+  left: 42%;
+  list-style: none;
+  li {
+    background-image: url("../img/sliderUnactive.png");
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0px !important;
+    padding-right: 5px !important;
+  }
+  li.slick-active{
+      width: 35px !important;
+    background-image: url("../img/sliderActive.png");
+  }
+
+}
+ul{
+  style: none !important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: transparent !important;
+}
+.slick-dots li button:before{
+  color: transparent !important;
 }

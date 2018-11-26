@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,700');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+  box-sizing: border-box;
+  position: relative;
+}
+h1{
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 5px;
+}
+p{
+  font-size: 12px;
+
+  padding-top: 0px;
+}
+ul{
+  img{
+    width: 100%;
+  }
+}
+
+div[class*="col-"]{
+  img{
+    width: 100%;
+  }
+}
+.form-control-lg{
+  position: relative;
+  padding-right: 18% !important;
+  padding-left: 25px !important;
+  font-size: 14px !important;
+}
+.slick-dots{
+  text-align: right !important;
+  position: absolute;
+  top: -25px
+}
+
+.form-header{
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.7px;
+  padding-bottom: 5px;
+  position: relative
+}
+
+.main-header{
+  font-size: 33px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  padding-top: 33px;
+  letter-spacing: -0.7px;
+  span{
+    font-weight: 200;
+  }
+}
+.slider-header{
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: -0.7px;
+  padding-top: 40px;
+  padding-bottom: -20px;
+  .row{
+    padding-bottom: 0px !important;
+  }
+}
+
+form {
+  img{
+    position: absolute;
+    top: calc(50% - 7.5px);
+    right: 30px;
+    width: 15px;
+    height: 15px;
+    display: none;
+
+  }
+}
+.row {
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.btn-success{
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.7px;
+  height: 50px;
+  background-color: #00c352;
+  border: 1px solid #00c352;
+
+}
+.btn-success:hover{
+  font-size: 13px;
+  font-weight: bold;
+  height: 50px;
+  background-color: #00c352;
+  border: 1px solid #00c352;
+}
+
+@media (min-width: 1141px){
+  body{
+    margin-right: 18%;
+    margin-left: 18%;
+
+  }
+}
+@media (min-width: 768px) and (max-width: 1140px){
+  body{
+    margin-right: 100px;
+    margin-left: 100px;
+
+  }
+}
+
+@media (max-width: 767px) {
+
+  .slick-dots{
+    top: -25px
+  }
+  .form-header{
+    font-size: 24px;
+
+    font-weight: bold;
+    letter-spacing: -0.7px;
+    padding-bottom: 5px;
+    position: relative
+  }
+
+  .main-header{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    letter-spacing: -0.7px;
+    span{
+      font-weight: 200;
+    }
+  }
+  .slider-header{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.7px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    .row{
+      padding-bottom: 0px !important;
+    }
+  }
+  .slider{
+    div[class*="col-"]{
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
+  }
+
+  form {
+    div[class*="col-"]{
+      padding-top: 15px;
+    }
+    .row:first-of-type{
+      div[class*="col-"]:first-of-type{
+        padding-top: 0px;
+      }
+
+    }
+    .row:nth-of-type(2){
+      div[class*="col-"]:first-of-type{
+        padding-top: 0px;
+      }
+
+    }
+    .row:nth-of-type(3){
+      div[class*="col-"]:first-of-type{
+        padding-top: 0px;
+      }
+
+    }
+
+  }
+  .form-control{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #717171
+  }
+  .btn-success{
+    height: 36px !important;
+    font-weight: 700;
+    margin-top: -8px;
+  }
+
+  h1{
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+  }
+  p{
+    font-size: 15px;
+
+    padding-top: 0px;
+  }
+}
+@media (max-width: 575px) {
+
+  .container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .main-header{
+    font-size: 25px;
+  }
+  .form-header {
+    font-size: 18px;
+  }
+  .slider-header {
+    font-size: 18px;
+  }
+  h1{
+    font-size: 15px;
+  }
+  p{
+    font-size: 13px;
+  }
+}
+.button-small{
+  height: 36px;
+  font-weight: 700;
+  margin-top: -8px;
+
+
+}
+
+.slick-dots{
+  position: absolute !important;
+  list-style: none;
+  li {
+    background-image: url("../img/sliderUnactive.png");
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0px !important;
+    padding-right: 5px !important;
+  }
+  li.slick-active{
+    width: 35px !important;
+    background-image: url("../img/sliderActive.png");
+  }
+
+}
+ul{
+  style: none !important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: transparent !important;
+}
+.slick-dots li button:before{
+  color: transparent !important;
+}
+
+@media (max-width: 280px){
+  .slider-header{
+    padding-bottom: 60px;
+  }
+  .slick-dots{
+    top: -55px
+  }
+}
+.container-fluid{
+  padding:0px !important
+}
+.container-fluid:last-of-type{
+  padding:0px !important
+}
+

@@ -6,7 +6,7 @@ const createSliderElement= (element1, element2, element3) =>{
     const slider =
                 <div className="container-fluid">
                     <div className="row slider">
-                        <div className="col-md-4 ">
+                        <div className="col-xl-4 col-lg-4 col-md-4 ">
                             <div>
                                 {/*//url*/}
                                 <img src={element1[0]} />
@@ -16,7 +16,7 @@ const createSliderElement= (element1, element2, element3) =>{
                                 <p>{element1[2]}</p>
                             </div>
                         </div>
-                        <div className="col-md-4 ">
+                        <div className="col-xl-4 col-lg-4 col-md-4 ">
                             <div>
                                 <img src={element2[0]} />
                             </div>
@@ -25,7 +25,7 @@ const createSliderElement= (element1, element2, element3) =>{
                                 <p>{element2[2]}</p>
                             </div>
                         </div>
-                        <div className="col-md-4 ">
+                        <div className="col-xl-4 col-lg-4 col-md-4  ">
                             <div>
                                 <img src={element3[0]} />
                             </div>
