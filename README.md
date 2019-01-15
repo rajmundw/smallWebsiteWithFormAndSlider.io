@@ -30,6 +30,13 @@
   <li>Save user on JSON</li>
 </ul>
 
+<h2>Live:</h2>
+<ul>
+	<li>https://rajmundw.github.io/smallWebsiteWithFormAndSlider.io/</li>
+</ul>
+
+
+
 <h2>ToDo:</h2>
 <ul>
 	<li>improving RWD</li>
